@@ -1,0 +1,15 @@
+# lighting
+bindsym XF86MonBrightnessUP exec "brightnessctl s 5%+"
+bindsym XF86MonBrightnessDown exec "brightnessctl s 5%-"
+
+# audio
+bindsym XF86AudioLowerVolume exec "amixer -D pipewire sset Master 3%-"
+bindsym XF86AudioRaiseVolume exec "amixer -D pipewire sset Master 3%+"
+bindsym XF86AudioMute exec "amixer sset Master toggle"
+
+#media keys 
+bindsym XF86AudioPlay exec "playerctl play-pause"
+bindsym XF86AudioStop exec "playerctl stop"
+bindsym XF86AudioPrev exec "playerctl previous"
+bindsym XF86AudioNext exec "playerctl next"
+
