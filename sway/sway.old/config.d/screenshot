@@ -1,4 +1,0 @@
-bindsym Shift+Print exec grim - | wl-copy
-bindsym Shift+Alt+Print exec grim -g "$(slurp)" - | wl-copy
-bindsym $mod+p exec grim - | wl-copy
-bindsym $mod+Alt+p exec grim -g "$(slurp)" - | wl-copy
